@@ -23,6 +23,6 @@ jobs:
         uses: actions/download-artifact@v4
         with:
           name:artifact-test
-          path: './'
+          path: ./
       - name: check
         run: cat hello.txt
